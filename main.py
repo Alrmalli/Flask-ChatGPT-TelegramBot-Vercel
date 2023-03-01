@@ -114,5 +114,5 @@ dispatcher = Dispatcher(bot, None)
 dispatcher.add_handler(MessageHandler(Filters.text, reply_handler))
 
 #Start the bot
-if name == 'main':
+if __name__ == 'main':
     app.run()
