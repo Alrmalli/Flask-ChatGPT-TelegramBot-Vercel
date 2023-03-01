@@ -113,6 +113,6 @@ dispatcher = Dispatcher(bot, None)
 # Add handler to process text messages
 dispatcher.add_handler(MessageHandler(Filters.text, reply_handler))
 
-Start the bot
+#Start the bot
 if name == 'main':
     app.run()
